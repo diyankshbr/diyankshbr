@@ -27,16 +27,16 @@
 
 		switch ($page){
 			case 'home':
-				include "halaman/home.php";
+				include "./halaman/home.php";
 				break;
 			case 'datadiri':
-				include "halaman/datadiri.php";
+				include "./halaman/datadiri.php";
 				break;
-			case 'riwayat':
-				include "halaman/pendidikan.php";
+			case 'pendidikan':
+				include "./halaman/pendidikan.php";
 				break;
 			default:
-				echo "<center><h2>Maaf.. Halaman tidak ditemukan!</h2></center>;
+				echo "<center><h2>Maaf.. Halaman tidak ditemukan!</h2></center>";
 				break;
 		}
 	} else{
